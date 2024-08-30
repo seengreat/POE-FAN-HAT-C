@@ -63,7 +63,7 @@ Navigate to the poe-fan-hat-c/c/ directory and execute the following commands:<b
 4）Temperature Control Test<br>
 Open a new terminal window and install stress using the following command:<br>
 `sudo apt install stress`<br>
- `Run the testing command:`<br>
+ Run the testing command:<br>
 `stress -c 4`<br>
 At this point, the CPU temperature will gradually increase. When it exceeds 50℃, the onboard fan will automatically start.<br>
 
