@@ -34,7 +34,7 @@ Since the example programs use Python 3 environment, installing the smbus librar
 `sudo apt-get install -y python-smbus`<br>
 
 ##  2.4 Install lgpio library
-The C language version of the example program uses the lgpio library. Install the lgpio library on Raspberry Pi 5:
+The C language version of the example program uses the lgpio library. Install the lgpio library on Raspberry Pi 5:<br>
 `wget https://github.com/joan2937/lg/archive/master.zip`<br>
 `unzip master.zip`<br>
 `cd lg-master`<br>
@@ -53,7 +53,7 @@ You should see the address representing the board's OLED screen connected to the
 1）Properly install the POE FAN HAT C onto the Raspberry Pi 5 and boot up the Raspberry Pi.<br>
 2）Run the Python program<br>
 Navigate to the poe-fan-hat-c/python/ directory.<br>
-sudo python3 main.py<br>
+`sudo python3 main.py`<br>
 After running the program, the IP address of the Raspberry Pi 5 (192.168.2.242) and the real-time CPU temperature (62.8℃) will appear on the OLED screen of the board    <br> 
 3）Running C Program:<br>
 Navigate to the poe-fan-hat-c/c/ directory and execute the following commands:<br>
