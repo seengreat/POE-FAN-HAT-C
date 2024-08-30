@@ -72,7 +72,7 @@ Using the systemd method:<br>
 Create a .service file on the Raspberry Pi, such as poe-fan-hat-c.service. The file content should be as follows (assuming the main.py file is located at /home/pi/poe-fan-hat-c):<br>
 <br>
 [Unit]<br>
-Description=poe-fan-hat-c service<br>
+`Description=poe-fan-hat-c service`<br>
 After=network.target<br>
 <br>
 [Service]<br>
